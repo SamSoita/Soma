@@ -1,0 +1,158 @@
+
+h1{
+    color: green;
+    text-align: center;
+}
+body{
+    background-color: rgb(179, 174, 174);
+    color: rgb(241, 238, 238);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: white;
+}    
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr{
+    clear:both ;
+}
+.box-1{
+    background-color: rgb(44, 75, 75);
+    color: white;
+    border: 2px red solid;
+    padding:5px ;
+    margin: 20px;
+}
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    text-decoration: wavy;
+    text-transform:uppercase ;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+    
+}
+.categories h1{
+    text-align: center;
+
+}
+.box-2{
+    border:2px red solid;
+    padding: 5px;
+    margin: 20px;
+}
+.categories{
+    border: 1px red solid;
+    padding: 5px;
+    border-radius: 15px;
+    margin:20px ;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+.categories li{
+    padding: 10px;
+    border:5px;
+    margin: 2px;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form group{
+    padding-top: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+
+}
+.my-form input[type="submit"]{
+    background-color: black;
+    color: blueviolet;
+    padding: 10px 15px;
+    border: none;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color:rgb(196, 8, 8);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+    
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../imgs/bggrnd.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+
+}
+.p-box h1{
+    position: absolute;
+    top:10px;
+    right:200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.fix-me{
+    position:fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+    background: red;
+
+}
+.my-list li:last-child{
+    background: rgb(14, 8, 0);
+
+}
+.my-list li:nth-child(5){
+    background: yellowgreen;
+}
+.my-list li:nth-child(even){
+    background: purple;
+}
